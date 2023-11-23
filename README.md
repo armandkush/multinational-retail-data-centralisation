@@ -32,29 +32,30 @@ File structure of the project:
 
     ├── ...
     ├── multinational-retail-data-centralisation    # Main folder
-    ├── data_cleaning.py     # File containing data cleaning methods
+    ├── data_cleaning.py        # File containing data cleaning methods
     ├── data_extraction.py      # File containing methods for data extraction
-    ├── database_utils.py      # File containing methods to connect and manipulate database
-    ├── main_operations.ipynb      # Jupyter notebook file containing milestone 2 operations
-    ├── ms3_Task_1.sql       # SQL file containing query for Task 1 of milestone 3
-    ├── ms3_Task_2.sql       # SQL file containing query for Task 2 of milestone 3
-    ├── ms3_Task_3.sql       # SQL file containing query for Task 3 of milestone 3
-    ├── ms3_Task_4.sql       # SQL file containing query for Task 4 of milestone 3
-    ├── ms3_Task_5.sql       # SQL file containing query for Task 5 of milestone 3
-    ├── ms3_Task_6.sql       # SQL file containing query for Task 6 of milestone 3
-    ├── ms3_Task_7.sql       # SQL file containing query for Task 7 of milestone 3
-    ├── ms3_Task_8.sql       # SQL file containing query for Task 8 of milestone 3
-    ├── ms3_Task_9.sql       # SQL file containing query for Task 9 of milestone 3
-    ├── ms4_Task_1.sql       # SQL file containing query for Task 1 of milestone 3
-    ├── ms4_Task_2.sql       # SQL file containing query for Task 2 of milestone 3
-    ├── ms4_Task_3.sql       # SQL file containing query for Task 3 of milestone 3
-    ├── ms4_Task_4.sql       # SQL file containing query for Task 4 of milestone 3
-    ├── ms4_Task_5.sql       # SQL file containing query for Task 5 of milestone 3
-    ├── ms4_Task_6.sql       # SQL file containing query for Task 6 of milestone 3
-    ├── ms4_Task_7.sql       # SQL file containing query for Task 7 of milestone 3
-    ├── ms4_Task_8.sql       # SQL file containing query for Task 8 of milestone 3
-    ├── ms4_Task_9.sql       # SQL file containing query for Task 9 of milestone 3
-    ├── temp.csv             # File to contain temporary csv data for operations.
+    ├── database_utils.py       # File containing methods to connect and manipulate database
+    ├── main_operations.ipynb   # Jupyter notebook file containing milestone 2 operations
+    ├── ms3_Task_1.sql          # SQL file containing query for Task 1 of milestone 3
+    ├── ms3_Task_2.sql          # SQL file containing query for Task 2 of milestone 3
+    ├── ms3_Task_3.sql          # SQL file containing query for Task 3 of milestone 3
+    ├── ms3_Task_4.sql          # SQL file containing query for Task 4 of milestone 3
+    ├── ms3_Task_5.sql          # SQL file containing query for Task 5 of milestone 3
+    ├── ms3_Task_6.sql          # SQL file containing query for Task 6 of milestone 3
+    ├── ms3_Task_7.sql          # SQL file containing query for Task 7 of milestone 3
+    ├── ms3_Task_8.sql          # SQL file containing query for Task 8 of milestone 3
+    ├── ms3_Task_9.sql          # SQL file containing query for Task 9 of milestone 3
+    ├── ms4_Task_1.sql          # SQL file containing query for Task 1 of milestone 3
+    ├── ms4_Task_2.sql          # SQL file containing query for Task 2 of milestone 3
+    ├── ms4_Task_3.sql          # SQL file containing query for Task 3 of milestone 3
+    ├── ms4_Task_4.sql          # SQL file containing query for Task 4 of milestone 3
+    ├── ms4_Task_5.sql          # SQL file containing query for Task 5 of milestone 3
+    ├── ms4_Task_6.sql          # SQL file containing query for Task 6 of milestone 3
+    ├── ms4_Task_7.sql          # SQL file containing query for Task 7 of milestone 3
+    ├── ms4_Task_8.sql          # SQL file containing query for Task 8 of milestone 3
+    ├── ms4_Task_9.sql          # SQL file containing query for Task 9 of milestone 3
+    ├── temp.csv                # File to contain temporary csv data for operations
+    ├── products.csv            # File containing product data downloaded from S3 server
     ├── LICENSE
     └── README.md
 
