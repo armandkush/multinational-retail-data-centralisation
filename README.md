@@ -22,42 +22,45 @@ Installation instructions:
 
 Usage instructions:
 
-1) Run all lines of code in main_operations.ipynb sequentially
-2) Run all files labelled ms3_Task_X sequentially where X is a number to create database schema. 
-3) Run all files labelled ms4_Task_X where X is a number for each queries stated in Milestone 4.
+1) Run all lines of code in main_operations.ipynb sequentially. Do note to change the credentials in the upload_to_db method in database_utils.py with your specific postgres server credentials.
+2) Run all files in Milestone 3 folder sequentially to create database schema. 
+3) Run all files in Milestone 4 folder for each queries stated in Milestone 4.
 
 
 File structure of the project:
 
 
     ├── ...
-    ├── multinational-retail-data-centralisation    # Main folder
-    ├── data_cleaning.py        # File containing data cleaning methods
-    ├── data_extraction.py      # File containing methods for data extraction
-    ├── database_utils.py       # File containing methods to connect and manipulate database
-    ├── main_operations.ipynb   # Jupyter notebook file containing milestone 2 operations
-    ├── ms3_Task_1.sql          # SQL file containing query for Task 1 of milestone 3
-    ├── ms3_Task_2.sql          # SQL file containing query for Task 2 of milestone 3
-    ├── ms3_Task_3.sql          # SQL file containing query for Task 3 of milestone 3
-    ├── ms3_Task_4.sql          # SQL file containing query for Task 4 of milestone 3
-    ├── ms3_Task_5.sql          # SQL file containing query for Task 5 of milestone 3
-    ├── ms3_Task_6.sql          # SQL file containing query for Task 6 of milestone 3
-    ├── ms3_Task_7.sql          # SQL file containing query for Task 7 of milestone 3
-    ├── ms3_Task_8.sql          # SQL file containing query for Task 8 of milestone 3
-    ├── ms3_Task_9.sql          # SQL file containing query for Task 9 of milestone 3
-    ├── ms4_Task_1.sql          # SQL file containing query for Task 1 of milestone 3
-    ├── ms4_Task_2.sql          # SQL file containing query for Task 2 of milestone 3
-    ├── ms4_Task_3.sql          # SQL file containing query for Task 3 of milestone 3
-    ├── ms4_Task_4.sql          # SQL file containing query for Task 4 of milestone 3
-    ├── ms4_Task_5.sql          # SQL file containing query for Task 5 of milestone 3
-    ├── ms4_Task_6.sql          # SQL file containing query for Task 6 of milestone 3
-    ├── ms4_Task_7.sql          # SQL file containing query for Task 7 of milestone 3
-    ├── ms4_Task_8.sql          # SQL file containing query for Task 8 of milestone 3
-    ├── ms4_Task_9.sql          # SQL file containing query for Task 9 of milestone 3
-    ├── temp.csv                # File to contain temporary csv data for operations
-    ├── products.csv            # File containing product data downloaded from S3 server
-    ├── LICENSE
-    └── README.md
+    └── multinational-retail-data-centralisation    # Main folder
+        ├── data_cleaning.py         # File containing data cleaning methods
+        ├── data_extraction.py       # File containing methods for data extraction
+        ├── database_utils.py        # File containing methods to connect and manipulate database
+        ├── main_operations.ipynb    # Jupyter notebook file containing milestone 2 operations
+        ├── Milestone 3          # Folder containing sql files for milestone 3
+        │   ├── ms3_Task_1.sql       # SQL file containing query for Task 1 of milestone 3
+        │   ├── ms3_Task_2.sql       # SQL file containing query for Task 2 of milestone 3
+        │   ├── ms3_Task_3.sql       # SQL file containing query for Task 3 of milestone 3
+        │   ├── ms3_Task_4.sql       # SQL file containing query for Task 4 of milestone 3
+        │   ├── ms3_Task_5.sql       # SQL file containing query for Task 5 of milestone 3
+        │   ├── ms3_Task_6.sql       # SQL file containing query for Task 6 of milestone 3
+        │   ├── ms3_Task_7.sql       # SQL file containing query for Task 7 of milestone 3
+        │   ├── ms3_Task_8.sql       # SQL file containing query for Task 8 of milestone 3
+        │   └── ms3_Task_9.sql       # SQL file containing query for Task 9 of milestone 3
+        ├── Milestone 4          # Folder containing sql files for milestone 4
+        │   ├── ms4_Task_1.sql       # SQL file containing query for Task 1 of milestone 3
+        │   ├── ms4_Task_2.sql       # SQL file containing query for Task 2 of milestone 3
+        │   ├── ms4_Task_2.sql       # SQL file containing query for Task 2 of milestone 3
+        │   ├── ms4_Task_3.sql       # SQL file containing query for Task 3 of milestone 3
+        │   ├── ms4_Task_4.sql       # SQL file containing query for Task 4 of milestone 3
+        │   ├── ms4_Task_5.sql       # SQL file containing query for Task 5 of milestone 3
+        │   ├── ms4_Task_6.sql       # SQL file containing query for Task 6 of milestone 3
+        │   ├── ms4_Task_7.sql       # SQL file containing query for Task 7 of milestone 3
+        │   ├── ms4_Task_8.sql       # SQL file containing query for Task 8 of milestone 3
+        │   └──  ms4_Task_9.sql      # SQL file containing query for Task 9 of milestone 3
+        ├── temp.csv                 # File to contain temporary csv data for operations.
+        ├── products.csv             # File that contains product data downloaded from S3      
+        ├── LICENSE                  # File containing license information  
+        └── README.md                # File containing essential information and instructions
 
 
 
